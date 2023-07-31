@@ -1,4 +1,4 @@
-FROM tomcat:8.0-alpine
+FROM nginx:latest
 MAINTAINER ganeshk670@gmail.com
-WORKDIR /usr/local/tomcat
-EXPOSE 8085
+WORKDIR /usr/share/nginx
+EXPOSE 85
